@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 660px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.navbar nav{
+    padding: 20px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text
+    text-decoration: none;}
+
+nav a:hover{
+    color: peru;
+}
+nav a:visited{
+    color: rgb(0, 0, 0);}
+
+.banner{
+    background-image: url(images8/abamir-fitness.gif);
+    height:12vw;
+    width: 200vw;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: rgb(0, 0, 0); background-attachment: fixed;
+}
+.navbar span{
+    
+    
+}
+.pic1{
+  width: 25px;
+
+}
+.pic2 , .pic3 ,.pic4{
+  width: 20px;
+}
+.pic5{
+  width: 25px;
+}
+.navbar span{
+  padding-left: 870px;
+}
+.navbar a{
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ border-top: 1px solid black;
+ 
+
+}
+
